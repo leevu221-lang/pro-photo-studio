@@ -7,8 +7,8 @@ export const PHOTOGRAPHER_INFO = {
   subtitle: "Sony Artisan of Imagery | Leica Ambassador Vietnam",
   tagline: "Bắt trọn linh hồn của ánh sáng & Kể những câu chuyện vượt thời gian.",
   bio: "Với hơn 14 năm thực chiến trong ngành nhiếp ảnh nghệ thuật và thương mại, tác phẩm của Y Võ Visual từng xuất hiện trên Vogue Italia, Harper's Bazaar, Elle và National Geographic Vietnam. Với tôn chỉ 'Ánh sáng là linh hồn của bức ảnh', Y Võ đã truyền cảm hứng và đào tạo hơn 12.000 nhiếp ảnh gia trên khắp cả nước.",
-  avatar: "/photographer.jpg",
-  heroBg: "/hero-bg.jpg",
+  avatar: "./photographer.jpg",
+  heroBg: "./hero-bg.jpg",
   stats: [
     { value: "14+", label: "Năm Làm Nghề" },
     { value: "500+", label: "Bộ Ảnh Cưới & Bìa Báo" },
