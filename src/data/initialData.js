@@ -1,12 +1,12 @@
-// initialData.js - Dữ liệu hạt giống cho Portfolio Nhiếp Ảnh & Học Viện Đào Tạo Minh Vũ
+// initialData.js - Dữ liệu hạt giống cho Portfolio Nhiếp Ảnh & Học Viện Đào Tạo Y Võ Visual
 
 export const PHOTOGRAPHER_INFO = {
-  name: "Minh Vũ",
-  fullName: "Vũ Quang Minh",
+  name: "Y Võ",
+  fullName: "Y Võ Visual",
   title: "Visual Artist & Master Photographer",
   subtitle: "Sony Artisan of Imagery | Leica Ambassador Vietnam",
   tagline: "Bắt trọn linh hồn của ánh sáng & Kể những câu chuyện vượt thời gian.",
-  bio: "Với hơn 14 năm thực chiến trong ngành nhiếp ảnh nghệ thuật và thương mại, tác phẩm của Minh Vũ từng xuất hiện trên Vogue Italia, Harper's Bazaar, Elle và National Geographic Vietnam. Với tôn chỉ 'Ánh sáng là linh hồn của bức ảnh', Minh Vũ đã truyền cảm hứng và đào tạo hơn 12.000 nhiếp ảnh gia trên khắp cả nước.",
+  bio: "Với hơn 14 năm thực chiến trong ngành nhiếp ảnh nghệ thuật và thương mại, tác phẩm của Y Võ Visual từng xuất hiện trên Vogue Italia, Harper's Bazaar, Elle và National Geographic Vietnam. Với tôn chỉ 'Ánh sáng là linh hồn của bức ảnh', Y Võ đã truyền cảm hứng và đào tạo hơn 12.000 nhiếp ảnh gia trên khắp cả nước.",
   avatar: "/photographer.jpg",
   heroBg: "/hero-bg.jpg",
   stats: [
@@ -26,7 +26,7 @@ export const PHOTOGRAPHER_INFO = {
   bankAccount: {
     bankName: "Techcombank (Ngân hàng TMCP Kỹ Thương Việt Nam)",
     accountNumber: "1903 8888 6688",
-    accountHolder: "VU QUANG MINH",
+    accountHolder: "Y VO",
     branch: "Hội sở Hà Nội"
   }
 };
@@ -66,7 +66,7 @@ export const INITIAL_PHOTOS = [
       iso: "64",
       focalLength: "80mm"
     },
-    location: "Studio Minh Vũ, Tây Hồ, Hà Nội",
+    location: "Studio Y Võ Visual, Tây Hồ, Hà Nội",
     story: "Sử dụng kỹ thuật ánh sáng Rembrandt với 1 đèn Profoto B10X kết hợp chóa Beauty Dish 70cm và lưới tổ ong, làm nổi bật đường nét kiêu sa và đôi mắt có chiều sâu vô cực.",
     featured: true,
     likes: 518,
@@ -186,7 +186,7 @@ export const INITIAL_PHOTOS = [
       iso: "64",
       focalLength: "120mm"
     },
-    location: "Studio Minh Vũ High-End Commercial",
+    location: "Studio Y Võ Visual High-End Commercial",
     story: "Chụp macro sản phẩm với kỹ thuật Focus Stacking 28 tấm ghép lại để đạt độ nét sâu hoàn hảo từ nắp chai kim loại đến giọt sương bắn ra trong không trung.",
     featured: true,
     likes: 456,
@@ -246,7 +246,7 @@ export const INITIAL_PHOTOS = [
       iso: "100",
       focalLength: "85mm"
     },
-    location: "Studio Minh Vũ, Hà Nội",
+    location: "Studio Y Võ Visual, Hà Nội",
     story: "Phong cách ánh sáng hard-light điện ảnh lấy cảm hứng từ các bộ phim của đạo diễn Christopher Nolan và Vương Gia Vệ.",
     featured: false,
     likes: 410,
@@ -290,7 +290,7 @@ export const INITIAL_COURSES = [
     thumbnail: "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=85",
     previewVideoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
     duration: "18 giờ học • 24 bài giảng 4K",
-    instructor: "Nhiếp ảnh gia Minh Vũ",
+    instructor: "Nhiếp ảnh gia Y Võ",
     description: "Khóa học độc quyền giải mã toàn bộ bí quyết tạo nên những bức ảnh chân dung triệu view. Bạn sẽ không còn phải chụp mò mẫm hay phụ thuộc vào may rủi, mà hoàn toàn làm chủ hướng sáng, chất lượng ánh sáng, tỉ lệ tương phản và tâm lý giao tiếp giúp mẫu thăng hoa trước ống kính.",
     whatYouWillLearn: [
       "Hiểu sâu về 5 mô hình ánh sáng kinh điển: Rembrandt, Loop, Split, Butterfly & Broad lighting",
@@ -406,7 +406,7 @@ export const INITIAL_COURSES = [
     thumbnail: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=1000&q=85",
     previewVideoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
     duration: "15 giờ học • 20 bài giảng",
-    instructor: "Nhiếp ảnh gia Minh Vũ",
+    instructor: "Nhiếp ảnh gia Y Võ",
     description: "Màu sắc chính là công cụ truyền tải cảm xúc mạnh mẽ nhất trong một khung hình. Khóa học hướng dẫn bạn làm chủ bánh xe màu sắc (Color Wheel), nguyên lý phối màu bổ túc - tương đồng, cách bóc tách và tái tạo màu da Á Đông trong trẻo, cùng bí quyết giả lập chất màu film Kodak Portra 400, Fuji 400H và Cinestill 800T.",
     whatYouWillLearn: [
       "Nguyên lý hòa sắc: Analogous, Complementary, Triadic và Split-Complementary",
@@ -482,7 +482,7 @@ export const INITIAL_COURSES = [
     thumbnail: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=85",
     previewVideoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
     duration: "22 giờ học • 28 bài giảng thực chiến",
-    instructor: "Nhiếp ảnh gia Minh Vũ",
+    instructor: "Nhiếp ảnh gia Y Võ",
     description: "Bộ giáo trình toàn diện nhất dành cho các nhiếp ảnh gia muốn bước chân vào thị trường phóng sự cưới cao cấp. Từ kỹ năng dự đoán khoảnh khắc (Anticipation), setup 2 body máy ảnh, phân chia góc máy với team, đến nghệ thuật kể chuyện (Storytelling) và chiến lược định giá, bán gói chụp High-End.",
     whatYouWillLearn: [
       "Quy trình chụp phóng sự cưới trọn vẹn: Nhà trai, nhà gái, lễ gia tiên, rước dâu và tiệc tối",
@@ -535,7 +535,7 @@ export const INITIAL_COURSES = [
     thumbnail: "https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?auto=format&fit=crop&w=1000&q=85",
     previewVideoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
     duration: "8 giờ học • 14 bài giảng cốt lõi",
-    instructor: "Nhiếp ảnh gia Minh Vũ",
+    instructor: "Nhiếp ảnh gia Y Võ",
     description: "Bạn vừa mua chiếc máy ảnh đầu tiên và cảm thấy choáng ngợp trước hàng trăm nút bấm và menu phức tạp? Khóa học sẽ giúp bạn chuyển hoàn toàn từ chế độ Auto sang chế độ Manual tự tin chỉ sau 7 ngày, giải thích mọi khái niệm bằng hình ảnh sinh động, dễ hiểu nhất.",
     whatYouWillLearn: [
       "Giải mã Tam giác phơi sáng: Khẩu độ (Aperture), Tốc độ màn trập (Shutter Speed), Độ nhạy sáng (ISO)",
@@ -629,7 +629,7 @@ export const INITIAL_USERS = [
   {
     id: "user-admin",
     phoneNumber: "0988888888",
-    fullName: "Vũ Quang Minh (Admin)",
+    fullName: "Y Võ Visual (Admin)",
     role: "admin",
     joinedDate: "2024-01-01",
     enrolledCourses: ["course-lighting-mastery", "course-color-retouch", "course-wedding-pro", "course-fundamentals"],

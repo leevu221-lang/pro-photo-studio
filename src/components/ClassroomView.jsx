@@ -93,7 +93,7 @@ export default function ClassroomView() {
       author: currentUser?.fullName || 'Học viên',
       time: 'Vừa xong',
       question: newQuestion,
-      answer: 'Cảm ơn bạn đã đặt câu hỏi. Giảng viên Minh Vũ sẽ phản hồi chi tiết trong ít phút!'
+      answer: 'Cảm ơn bạn đã đặt câu hỏi. Giảng viên Y Võ sẽ phản hồi chi tiết trong ít phút!'
     };
     setQaList([item, ...qaList]);
     setNewQuestion('');
@@ -318,7 +318,7 @@ export default function ClassroomView() {
                     <div style={{ display: 'flex', gap: '10px' }}>
                       <input
                         type="text"
-                        placeholder="Đặt câu hỏi cho nhiếp ảnh gia Minh Vũ..."
+                        placeholder="Đặt câu hỏi cho nhiếp ảnh gia Y Võ..."
                         value={newQuestion}
                         onChange={(e) => setNewQuestion(e.target.value)}
                         className="form-input"
@@ -341,7 +341,7 @@ export default function ClassroomView() {
                           ❓ {item.question}
                         </p>
                         <div style={{ background: 'rgba(212,175,55,0.06)', borderLeft: '3px solid var(--gold-primary)', padding: '10px 14px', borderRadius: '4px', fontSize: '0.88rem', color: 'var(--text-muted)' }}>
-                          <strong style={{ color: 'var(--gold-primary)' }}>Nhiếp ảnh gia Minh Vũ:</strong> {item.answer}
+                          <strong style={{ color: 'var(--gold-primary)' }}>Nhiếp ảnh gia Y Võ:</strong> {item.answer}
                         </div>
                       </div>
                     ))}

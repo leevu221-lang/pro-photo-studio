@@ -181,7 +181,7 @@ export default function UserProfile() {
                 <BookOpen size={48} color="var(--text-dim)" style={{ marginBottom: '16px' }} />
                 <h3 style={{ color: '#fff', marginBottom: '8px' }}>Bạn chưa đăng ký khóa học nào</h3>
                 <p style={{ color: 'var(--text-muted)', maxWidth: '480px', margin: '0 auto 20px' }}>
-                  Khám phá các khóa học nhiếp ảnh và hậu kỳ chuẩn quốc tế của Minh Vũ để bắt đầu nâng tầm tay nghề!
+                  Khám phá các khóa học nhiếp ảnh và hậu kỳ chuẩn quốc tế của Y VÕ Visual để bắt đầu nâng tầm tay nghề!
                 </p>
                 <button className="btn btn-gold" onClick={() => setCurrentView('courses')}>
                   Xem Danh Sách Khóa Học
@@ -431,7 +431,7 @@ export default function UserProfile() {
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid var(--border-subtle)', paddingBottom: '16px', marginBottom: '20px' }}>
                 <div>
                   <div className="font-serif gold-text" style={{ fontSize: '1.4rem', fontWeight: 800 }}>
-                    MINH VŨ ACADEMY
+                    Y VÕ VISUAL ACADEMY
                   </div>
                   <div style={{ fontSize: '0.75rem', color: 'var(--text-dim)' }}>HÓA ĐƠN ĐIỆN TỬ DỊCH VỤ ĐÀO TẠO</div>
                 </div>
@@ -449,7 +449,7 @@ export default function UserProfile() {
                 </div>
                 <div>
                   <div style={{ color: 'var(--text-dim)' }}>ĐƠN VỊ CUNG CẤP:</div>
-                  <strong style={{ color: '#fff' }}>Học Viện Nhiếp Ảnh Minh Vũ</strong>
+                  <strong style={{ color: '#fff' }}>Học Viện Nhiếp Ảnh Y VÕ Visual</strong>
                   <div style={{ color: 'var(--text-muted)' }}>Tây Hồ, Hà Nội, Việt Nam</div>
                 </div>
               </div>

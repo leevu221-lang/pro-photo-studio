@@ -80,7 +80,7 @@ export default function LightboxModal() {
       {/* Lightbox Header */}
       <div className="lightbox-header">
         <div style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
-          <span className="badge badge-gold font-display">MINH VŨ GALLERY</span>
+          <span className="badge badge-gold font-display">Y VÕ VISUAL GALLERY</span>
           <span style={{ color: 'var(--text-muted)', fontSize: '0.88rem' }}>
             {currentIndex + 1} / {totalPhotos}
           </span>
@@ -286,7 +286,7 @@ export default function LightboxModal() {
           </div>
 
           <div style={{ marginTop: 'auto', paddingTop: '16px', borderTop: '1px solid var(--border-subtle)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', color: 'var(--text-dim)', fontSize: '0.8rem' }}>
-            <span>Tác quyền: © Minh Vũ Studio</span>
+            <span>Tác quyền: © Y VÕ Visual</span>
             <span>Ngày chụp: {selectedPhoto.date}</span>
           </div>
         </div>

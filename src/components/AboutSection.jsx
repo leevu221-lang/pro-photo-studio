@@ -17,7 +17,7 @@ export default function AboutSection() {
 
   const handleBookingSubmit = (e) => {
     e.preventDefault();
-    showToast(`Cảm ơn bạn ${bookingForm.name}! Studio Minh Vũ sẽ liên hệ tư vấn lịch chụp trong 24 giờ.`, 'success');
+    showToast(`Cảm ơn bạn ${bookingForm.name}! Y VÕ Visual sẽ liên hệ tư vấn lịch chụp trong 24 giờ.`, 'success');
     setBookingForm({ name: '', phone: '', serviceType: 'wedding', date: '', message: '' });
   };
 

@@ -131,7 +131,7 @@ export default function AuthModal() {
         };
         setUsers(prev => [...prev, newUser]);
         setCurrentUser(newUser);
-        showToast(`Chào mừng bạn ${newUser.fullName} gia nhập Minh Vũ Academy!`, 'success');
+        showToast(`Chào mừng bạn ${newUser.fullName} gia nhập Y VÕ Visual Academy!`, 'success');
       }
     } else {
       // Login mode

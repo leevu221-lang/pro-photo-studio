@@ -15,7 +15,7 @@ export default function Footer() {
               <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'var(--gold-gradient)', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#000' }}>
                 <Camera size={20} />
               </div>
-              <div className="font-serif" style={{ fontSize: '1.3rem', fontWeight: 800 }}>MINH VŨ STUDIO</div>
+              <div className="font-serif" style={{ fontSize: '1.3rem', fontWeight: 800 }}>Y VÕ VISUAL</div>
             </div>
             <p style={{ fontSize: '0.88rem', lineHeight: 1.7, marginBottom: '18px' }}>
               Nền tảng triển lãm portfolio nghệ thuật 4K và học viện đào tạo nhiếp ảnh trực tuyến chuẩn quốc tế.
@@ -81,7 +81,7 @@ export default function Footer() {
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <Mail size={15} color="var(--gold-primary)" />
-                <span>contact@minhvustudio.vn</span>
+                <span>contact@yvovisual.vn</span>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div style={{ paddingTop: '24px', borderTop: '1px solid var(--border-subtle)', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px', fontSize: '0.8rem' }}>
           <div>
-            © 2026 MINH VŨ STUDIO & ACADEMY. All rights reserved.
+            © 2026 Y VÕ VISUAL & ACADEMY. All rights reserved.
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
             <span>Được chế tác với</span>

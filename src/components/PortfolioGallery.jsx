@@ -73,7 +73,7 @@ export default function PortfolioGallery() {
               lineHeight: 1.7
             }}
           >
-            Bộ sưu tập các kiệt tác nhiếp ảnh phóng sự cưới, chân dung editorial và cảnh quan hùng vĩ được ghi lại qua ống kính của nghệ sĩ thị giác Minh Vũ.
+            Bộ sưu tập các kiệt tác nhiếp ảnh phóng sự cưới, chân dung editorial và cảnh quan hùng vĩ được ghi lại qua ống kính của nghệ sĩ thị giác Y VÕ Visual.
           </p>
 
           <div style={{ display: 'flex', justifyContent: 'center', gap: '16px', flexWrap: 'wrap' }}>

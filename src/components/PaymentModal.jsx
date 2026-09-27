@@ -197,7 +197,7 @@ export default function PaymentModal() {
 
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
                   <span style={{ fontSize: '0.8rem', color: 'var(--text-dim)' }}>Chủ tài khoản:</span>
-                  <strong style={{ fontSize: '0.85rem', color: '#fff' }}>VU QUANG MINH</strong>
+                  <strong style={{ fontSize: '0.85rem', color: '#fff' }}>Y VO</strong>
                 </div>
 
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>

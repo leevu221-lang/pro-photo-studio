@@ -58,7 +58,7 @@ export default function AdminDashboard() {
     originalPrice: 3000000,
     salePrice: 1690000,
     thumbnail: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=85',
-    instructor: 'Nhiếp ảnh gia Minh Vũ',
+    instructor: 'Nhiếp ảnh gia Y Võ',
     description: ''
   });
 
@@ -99,7 +99,7 @@ export default function AdminDashboard() {
           iso: '100',
           focalLength: '50mm'
         },
-        location: 'Studio Minh Vũ, Hà Nội',
+        location: 'Y Võ Visual Studio, Hà Nội',
         story: 'Khoảnh khắc chụp với ánh sáng tự nhiên.',
         featured: false
       });
@@ -137,7 +137,7 @@ export default function AdminDashboard() {
         originalPrice: 2500000,
         salePrice: 1290000,
         thumbnail: 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=1000&q=85',
-        instructor: 'Nhiếp ảnh gia Minh Vũ',
+        instructor: 'Nhiếp ảnh gia Y Võ',
         description: 'Mô tả chi tiết nội dung khóa học...'
       });
     }
@@ -187,7 +187,7 @@ export default function AdminDashboard() {
                   Trung Tâm Quản Trị Hệ Thống (Admin Portal)
                 </h1>
                 <div style={{ fontSize: '0.85rem', color: 'var(--gold-light)' }}>
-                  Xin chào, {currentUser?.fullName || 'Quản trị viên Minh Vũ'}
+                  Xin chào, {currentUser?.fullName || 'Quản trị viên Y Võ Visual'}
                 </div>
               </div>
             </div>

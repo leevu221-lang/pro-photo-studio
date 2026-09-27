@@ -41,7 +41,7 @@ export default function Navbar() {
           onClick={() => switchRole('admin')}
           title="Xem quyền Quản trị viên (Thêm/Sửa ảnh, khóa học, duyệt đơn)"
         >
-          👑 Quản trị viên: Vũ Quang Minh
+          👑 Quản trị viên: Y Võ Visual
         </button>
       </div>
 
@@ -52,13 +52,13 @@ export default function Navbar() {
           <div
             className="brand-logo"
             onClick={() => setCurrentView('portfolio')}
-            title="Trang chủ Minh Vũ Studio"
+            title="Trang chủ Y Võ Visual"
           >
             <div className="brand-mark">
               <Camera size={22} />
             </div>
             <div>
-              <div className="brand-name font-serif">MINH VŨ</div>
+              <div className="brand-name font-serif">Y VÕ VISUAL</div>
               <div className="brand-sub">STUDIO & ACADEMY</div>
             </div>
           </div>

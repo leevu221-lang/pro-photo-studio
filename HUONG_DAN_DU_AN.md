@@ -1,5 +1,5 @@
 # DỰ ÁN: WEBSITE NHIẾP ẢNH GIA CHUYÊN NGHIỆP & HỌC VIỆN ĐÀO TẠO TRỰC TUYẾN
-**MINH VŨ STUDIO & MASTERCLASS ACADEMY**
+**Y VÕ VISUAL & MASTERCLASS ACADEMY**
 
 ---
 
@@ -7,7 +7,7 @@
 
 Website được xây dựng với phong cách **Luxury Dark Editorial & Cinema** lấy cảm hứng từ các tạp chí nhiếp ảnh quốc tế danh tiếng (*Vogue*, *Harper's Bazaar*, triển lãm nghệ thuật *Leica* & *Hasselblad*):
 - **Bảng màu cao cấp**: Nền tối huyền bí (`#07080a`, `#0e1117`, `#131720`), ánh kim hoàng gia Gold Accent (`#d4af37`, `#f59e0b`), viền kính mờ Glassmorphism và typography sang trọng kết hợp giữa **Cinzel**, **Playfair Display** và **Plus Jakarta Sans**.
-- **Địa chỉ mã nguồn**: `/Users/linhvu/.gemini/antigravity-ide/scratch/pro-photo-studio`
+- **Địa chỉ mã nguồn**: `/Users/linhvu/Desktop/APP Antigravity IDE/pro-photo-studio`
 - **Địa chỉ máy chủ cục bộ**: [http://localhost:5173/](http://localhost:5173/)
 
 ---
@@ -45,13 +45,13 @@ Website được xây dựng với phong cách **Luxury Dark Editorial & Cinema*
   - Sidebar danh sách bài học kèm thanh tiến độ học tập tự động tính `%` hoàn thành.
   - Tích chọn "Đánh dấu hoàn thành bài này" lưu trữ trực tiếp vào `localStorage`.
   - **Tab Tài Nguyên**: Tải trọn bộ 20 Presets Lightroom (.XMP cho PC, .DNG cho Mobile), Ebook sơ đồ ánh sáng PDF, Thư viện file RAW 61MP thực hành.
-  - **Tab Diễn Đàn Hỏi Đáp**: Học viên gửi câu hỏi và nhận giải đáp trực tiếp từ Nhiếp ảnh gia Minh Vũ.
+  - **Tab Diễn Đàn Hỏi Đáp**: Học viên gửi câu hỏi và nhận giải đáp trực tiếp từ Nhiếp ảnh gia Y Võ.
 
 ---
 
 ### 2.3. Cổng Thanh Toán Chuẩn Việt Nam (VietQR / MoMo / VNPAY)
 - **Tự động sinh mã VietQR chuẩn ngân hàng**:
-  - Mã QR tự sinh theo chuẩn Napas 24/7 (Techcombank `1903 8888 6688` - Chủ TK `VU QUANG MINH`).
+  - Mã QR tự sinh theo chuẩn Napas 24/7 (Techcombank `1903 8888 6688` - Chủ TK `Y VO`).
   - Tự động đính kèm Số tiền đơn hàng và Mã đơn hàng duy nhất (`ORD-xxxxx`).
   - Hỗ trợ quét qua tất cả ứng dụng ngân hàng tại Việt Nam (MBBank, Vietcombank, Techcombank, VPBank...) và Ví điện tử.
 - **Cổng Ví MoMo QR & VNPAY / Thẻ ATM Nội địa**.
@@ -102,7 +102,7 @@ Website được xây dựng với phong cách **Luxury Dark Editorial & Cinema*
 ```
 pro-photo-studio/
 ├── public/
-│   ├── photographer.jpg       # Chân dung nghệ sĩ Minh Vũ (AI Cinematic Studio)
+│   ├── photographer.jpg       # Chân dung nghệ sĩ Y Võ (AI Cinematic Studio)
 │   └── hero-bg.jpg            # Ảnh bìa Leica & Hasselblad Luxury Noir
 ├── src/
 │   ├── assets/
